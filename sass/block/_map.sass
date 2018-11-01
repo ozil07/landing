@@ -1,0 +1,44 @@
+﻿.map
+	position: relative
+
+#map
+	height: 370px
+
+.map_title
+	position: absolute
+	top: 0
+	left: 0
+	width: 50%
+	height: 100%
+	background-image: linear-gradient(270deg, rgba(191,83,248,0.9) 0%, rgba(144,59,239,0.9) 100%)
+	color: #fff
+	z-index: 100
+	+max-screen(992px)
+		width: 100%
+		position: static
+		padding: 50px
+	+max-screen(500px)
+		padding: 15px
+.map_cont
+	position: absolute
+	right: 0
+	top: 50%
+	transform: translateY(-50%)
+	right: 10%
+	+max-screen(992px)
+		width: 100%
+		position: static
+		transform: none
+	h1
+		margin: 10px 0
+		color: #fff
+	hr
+		margin: 10px 0 20px
+	p
+		margin: 10px 0
+		font: 14px $comforta
+	span
+		display: inline-block
+		width: 226px
+
+	
